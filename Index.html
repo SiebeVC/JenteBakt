@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jente Bakt</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.jpg" class="nav-logo" alt="Jente Bakt Logo">
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <span class="material-symbols-rounded nav-icon">shopping_cart</span>
+        </div>
+    </nav>
+    <main>
+        <div class="card">
+            <div class="card-left">
+                <img src="images/muffins.jpg" alt="speculaas muffins" class="card-image">
+            </div>
+            <div class="card-right">
+                <p class="card-text">
+                    <h2>Welkom bij Jente Bakt</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque neque recusandae magni necessitatibus velit officiis quod, magnam aut incidunt laborum sint reprehenderit quas! Eaque consequuntur sit labore fuga, corrupti eligendi nisi temporibus velit deleniti. Maiores, eos adipisci? Deleniti odio nisi soluta, eius ea aspernatur molestias amet necessitatibus sapiente ad aperiam consequatur assumenda ipsa, molestiae esse quaerat minus earum dolorem. Dignissimos cumque consectetur ratione explicabo error fugit doloribus, necessitatibus a vero nisi ducimus veniam, perferendis eaque. Id quod aliquid exercitationem, reiciendis possimus dolorem quis saepe officiis praesentium soluta, quas distinctio velit cum corporis minima numquam. Saepe, eius. At, laboriosam quaerat! Sapiente.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left">
+                <p class="card-text">
+                    <h2>Wie ben ik?</h2>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis repellendus deleniti ea magnam? Impedit quidem, cum aliquam cumque minima nisi sit error, necessitatibus reiciendis aperiam dolores velit? Nostrum deleniti, commodi quo corporis reprehenderit magni libero. Ullam velit repellat ab aliquam odio commodi accusamus ipsum, dignissimos, corrupti fuga tenetur omnis pariatur eveniet sequi labore facilis aspernatur suscipit deleniti consectetur doloremque ratione, itaque adipisci ipsa. Culpa eaque, alias, fuga fugiat qui est error rem maxime repellendus, velit vitae ducimus eum illum? Repudiandae incidunt asperiores fuga veniam recusandae odit voluptate a nihil alias! Assumenda odit animi autem debitis dolores nisi nobis, modi deleniti.
+                </p>
+            </div>
+            <div class="card-right">
+                <img src="images/22cake.jpg" alt="speculaas muffins" class="card-image">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-text">
+                <div class="footer-left">
+                    <span class="footer-title">Sociale Media</span>
+                    <ul>
+                        <li>Instagram: jente.bakt</li>
+                        <li>Facebook: Jente Bakt</li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <span class="footer-title">Contact</span>
+                    <ul>
+                        <li>emailadres@email.com</li>
+                        <li>0456 789 123</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            BE123456789 - &#169 <span id="year"></span> - Jente Bakt Official Site
+        </div>
+    </footer>
+</body>
+<script>
+    window.onload = function() {
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("year").innerHTML = n;
+    }
+</script>
+</html>
